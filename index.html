@@ -27,7 +27,28 @@
             /* animatie */
             animation: vliegBinnen 1.5s ease-out forwards;
         }
+          h2 {
+            font-size: 3em;
+            color: white;
 
+            /* startpositie */
+            opacity: 0;
+            transform: translateX(-100vw);
+
+            /* animatie */
+            animation: vliegBinnen 1.5s ease-out forwards;
+          }
+          h3 {
+            font-size: 3em;
+            color: white;
+
+            /* startpositie */
+            opacity: 0;
+            transform: translateX(-100vw);
+
+            /* animatie */
+            animation: vliegBinnen 1.5s ease-out forwards;
+          }
         @keyframes vliegBinnen {
             0% {
                 opacity: 0;
@@ -48,8 +69,8 @@
 <body>
 
     <h1>Das nou jammer, er staat niks te koop!!</h1>
-    <h1>Voor niets naar deze website gegaan!!</h1>
-    <h1>Als je er nu toch bent... Klik dan eventjes op het scherm!!</h1>
+    <h2>Voor niets naar deze website gegaan!!</h2>
+    <h3>Als je er nu toch bent... Klik dan eventjes op het scherm!!</h3>
 
     <audio id="geluid" autoplay>
         <source src="geluid.mp3" type="audio/mpeg">
